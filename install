@@ -2,6 +2,6 @@ clear
 echo "Đang Bắt Đầu Cài Đặt"
 apt update && apt upgrade -y
 clear
-cd && cd $HOME && cd /data/data/com.termux/files/usr/bin/ && pkg install wget -y && wget https://github.com/TranVanHoang2000/v2/raw/refs/heads/main/v2.zip && pkg install unzip -y && unzip v2.zip && chmod +x * && mv psiphon login 
+cd && cd $HOME && cd /data/data/com.termux/files/usr/bin/ && pkg install wget -y && wget https://github.com/TranVanHoang2000/v2/raw/refs/heads/main/v2.zip && pkg install unzip -y && unzip v2.zip && chmod +x * && mv 4gmienphi login 
 echo "Đã Cài Đặt Thành Công"
 login
